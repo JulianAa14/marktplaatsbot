@@ -19,7 +19,7 @@ module.exports.run = async (client, message, args) => {
 
     var argsList = args.join(" ").split(seperator);
 
-    if (argsList[3] === undefined) argsList[3] = "📣advertenties";
+    if (argsList[3] === undefined) argsList[3] = "📢default";
 
     var options = {
 
